@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgb(104, 131, 219),
+    rgb(51, 69, 129)
+  );
+
+  transition: background 0.1s linear;
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: white;
+}
