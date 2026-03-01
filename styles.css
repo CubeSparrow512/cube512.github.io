@@ -4,7 +4,7 @@ body {
 
   background: radial-gradient(
     circle at 50% 50%,
-    rgb(104, 131, 219),
+    #6883db,
     rgb(51, 69, 129)
   );
 
@@ -13,4 +13,22 @@ body {
 
 h3{
     color: white;
+}
+
+h7{
+    color: gray;
+}
+
+#carouselLexicon, #carouselDeepWithin, #carouselBDRP, #carouselPortfolio {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#carouselLexicon img, #carouselDeepWithin img, #carouselBDRP img, #carouselPortfolio img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+p {
+  text-align: center;
 }
