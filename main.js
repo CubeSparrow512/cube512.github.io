@@ -1,4 +1,4 @@
-// To add a project, add one object to this list. Order here = order on the page.
+// Projects list, this way I can add more projects withot touching the HTML. Each project has an id, category, title, logo, summary, meta info, description paragraphs, technologies used, links and screenshots.
 const IMG = "imgs/";
 const projects = [
   {
